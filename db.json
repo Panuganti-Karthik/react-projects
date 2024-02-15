@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Karthik",
+      "email": "Karthik@gmail.com",
+      "place": "Hyderabad",
+      "mobile": 9876543210
+    },
+    {
+      "id": 2,
+      "name": "Sai",
+      "email": "Sai@gmail.com",
+      "place": "Pittsburgh",
+      "mobile": 9765432180
+    }
+  ]
+}
