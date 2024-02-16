@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { Fragment, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   let [users, setUsers] = useState(null);
@@ -11,8 +12,19 @@ const Home = () => {
       .then((values) => setUsers(values.data));
   }, []);
   // console.log(users);
+  // let handleAdd = () => {
+  //   window.open(
+  //     "/create",
+  //     "_blank",
+  //     "height=400px,width=600px,top=100px,left=100px"
+  //   );
+  // };
   return (
     <>
+      <Link to="/create">
+        <button>Add</button>
+      </Link>
+      {/* <button onClick={handleAdd}>Add</button> */}
       <table>
         <thead>
           <tr>

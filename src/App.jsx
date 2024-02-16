@@ -16,6 +16,7 @@
 
 // ! 09/02/2024
 // ! CRUD APP Router(v6)
+// * json-server --watch db.json(filename)
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./CRUD APP/Home";
@@ -80,6 +81,21 @@ export default App;
 //           <Route path="*" element={<PageNotFound />} />
 //         </Routes>
 //       </BrowserRouter>
+//     </>
+//   );
+// };
+
+// export default App;
+
+// ! 15/02/2024
+// ! Login/SignUp Page
+// import React from "react";
+// import LoginPage from "./LoginPage/LoginPage";
+
+// const App = () => {
+//   return (
+//     <>
+//       <LoginPage />
 //     </>
 //   );
 // };
