@@ -31,11 +31,11 @@ let route = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/update",
+    path: "/update/:id",
     element: <Update />,
   },
   {
-    path: "/read",
+    path: "/read/:id",
     element: <Read />,
   },
   {
