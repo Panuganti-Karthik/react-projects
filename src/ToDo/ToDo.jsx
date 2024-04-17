@@ -167,7 +167,7 @@ const ToDo = () => {
           </Fragment>
         );
       })}
-      <button onClick={handleClearAll}>CLEAR ALL</button>
+      <button id="ClearAll" onClick={handleClearAll}>CLEAR ALL</button>
     </div>
   );
 };
